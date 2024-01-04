@@ -8,12 +8,7 @@ const Schema=mongoose.Schema({
             throw new Error("Email is Invalid!!!");
         }
     }},
-    password:{type:String,required:true,
-    validate(value){
-        if(!validation.isStrongPassword(value)){
-            throw new Error("Password is Invalid!!!");
-        }
-    }}
+    password:{type:String,required:true}
 })
 
 module.exports=mongoose.model('login',Schema);
