@@ -5,7 +5,6 @@ const ejs=require("ejs");
 const path=require("path");
 const Schema=require("./models/Schema");
 const Database=require("./database/Database");
-const { error } = require("console");
 const port=3001;
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
