@@ -1,0 +1,13 @@
+h1{
+    color: #0F2167 ;
+}
+.home{
+    background-color: #EAECCC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+margin: 0px 0px 20px 0px;
+}
