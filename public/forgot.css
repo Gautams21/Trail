@@ -1,0 +1,20 @@
+h1{
+    color: #0F2167 ;
+    padding-bottom: 20px;
+}
+.forgot{
+    background-color: #EAECCC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+margin: 0px 0px 20px 0px;
+font-size: 15px;
+padding-top: 5px;
+}
